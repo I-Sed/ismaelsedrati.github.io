@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ismaël Sedrati — Director of Photography / Director</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="brand">
+      <a href="#">ISMAËL SEDRATI</a>
+      <span class="subtitle">DOP / DIRECTOR</span>
+    </div>
+    <nav class="nav-links">
+      <a href="#work" class="active">WORK</a>
+      <a href="#about">ABOUT / CONTACT</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Section WORK -->
+    <section id="work" class="grid-container">
+      
+      <!-- Carte Projet 1 -->
+      <article class="project-card" data-vimeo-id="123456789">
+        <div class="media-wrapper">
+          <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1200&q=80" alt="Titre du Projet">
+          <!-- Optionnel : iframe Vimeo qui se charge au survol/clic -->
+        </div>
+        <div class="project-info">
+          <h2 class="project-title">NOM DU PROJET</h2>
+          <p class="project-meta">Commercial — Dir: Nom du Réalisateur</p>
+        </div>
+      </article>
+
+      <!-- Carte Projet 2 -->
+      <article class="project-card" data-vimeo-id="987654321">
+        <div class="media-wrapper">
+          <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=1200&q=80" alt="Titre du Projet 2">
+        </div>
+        <div class="project-info">
+          <h2 class="project-title">AUTRE PROJET</h2>
+          <p class="project-meta">Music Video — DOP: Ismaël Sedrati</p>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- Section ABOUT / CONTACT -->
+    <section id="about" class="about-section hidden">
+      <div class="about-content">
+        <p class="bio">
+          Ismaël Sedrati est un directeur de la photographie et réalisateur basé à [Ta Ville/Paris]. 
+          Spécialisé dans la publicité, la fiction et les clips vidéo.
+        </p>
+        <div class="contact-details">
+          <p><strong>Email:</strong> <a href="mailto:contact@ismaelsedrati.com">contact@ismaelsedrati.com</a></p>
+          <p><strong>Phone:</strong> +33 6 00 00 00 00</p>
+          <p><strong>Instagram:</strong> <a href="https://instagram.com" target="_blank">@ismaelsedrati</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal Lecteur Vidéo (Vimeo Embed) -->
+  <div id="video-modal" class="modal hidden">
+    <button class="close-btn">&times;</button>
+    <div class="modal-content">
+      <iframe id="vimeo-player" src="" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
