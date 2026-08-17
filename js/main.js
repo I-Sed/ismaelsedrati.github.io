@@ -87,13 +87,6 @@ function renderCinemaGrid(){
 
     link.appendChild(buildStillWrap({ still:p.still, preview:p.preview, alt:p.title }));
 
-    const meta = document.createElement('div');
-    meta.className = 'project-meta';
-    meta.innerHTML = `
-      <h3>${p.title} <span class="director-credit">— Dir. ${p.director}</span></h3>
-      <div class="tech">${p.credits || ''}</div>
-    `;
-    link.appendChild(meta);
     card.appendChild(link);
     grid.appendChild(card);
   });
