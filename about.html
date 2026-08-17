@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ismael Sedrati — About / Contact</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;1,500&family=Inter:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <a class="brand" href="index.html">Ismael Sedrati<span>Cinematographer &amp; Director</span></a>
+  <button class="nav-toggle" aria-expanded="false" aria-label="Menu">Menu</button>
+  <ul class="nav-links">
+    <li><a href="index.html">Cinematographer</a></li>
+    <li><a href="director.html">Director</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="about.html" aria-current="page">About / Contact</a></li>
+  </ul>
+</nav>
+
+<section class="section" style="padding-top:clamp(56px,9vw,120px)">
+  <div class="about-grid">
+    <div>
+      <!-- EDIT: remplace par ta photo -->
+      <div class="still-wrap portrait is-placeholder"></div>
+    </div>
+    <div>
+      <span class="eyebrow">About</span>
+      <h2 style="font-family:var(--font-display); font-style:italic; font-weight:500; font-size:clamp(26px,3.4vw,38px); margin:10px 0 20px;">
+        Ismael Sedrati
+      </h2>
+      <!-- EDIT: remplace par ta bio (parcours, formation, univers visuel, langues de travail...) -->
+      <p>
+        Directeur de la photographie et réalisateur, je construis des images au service
+        d'une écriture — que ce soit pour un film de fiction, un projet expérimental
+        ou une collaboration en tant que DP.
+      </p>
+      <p>
+        Basé entre [ville], disponible pour des tournages en France comme à l'international.
+      </p>
+
+      <ul class="contact-list">
+        <li><span class="k">Email</span><a href="mailto:contact@ismaelsedrati.com">contact@ismaelsedrati.com</a></li>
+        <li><span class="k">Instagram</span><a href="#" target="_blank" rel="noopener">@ismaelsedrati</a></li>
+        <li><span class="k">Vimeo</span><a href="#" target="_blank" rel="noopener">vimeo.com/ismaelsedrati</a></li>
+        <li><span class="k">CV / Reel</span><a href="#" target="_blank" rel="noopener">Télécharger</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <span>© <span id="year"></span> Ismael Sedrati</span>
+  <div class="socials">
+    <a href="#" target="_blank" rel="noopener">Instagram</a>
+    <a href="#" target="_blank" rel="noopener">Vimeo</a>
+    <a href="about.html">Contact</a>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
