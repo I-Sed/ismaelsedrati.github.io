@@ -28,7 +28,7 @@ window.CINEMA_PROJECTS = [
     title: "TITRE DU PROJET",
     director: "Nom du réalisateur",
     credits: "Court métrage — Kodak 5219",
-    still: "assets/img/cinema/project-one-still.jpg",
+    still: "assets/img/cinema/Carnet1.png",
     preview: "assets/img/cinema/project-one-preview.mp4",
     slate: {
       "Directed by": "Nom du réalisateur",
@@ -37,8 +37,8 @@ window.CINEMA_PROJECTS = [
       "Shot on": "—"
     },
     gallery: [
-      "assets/img/cinema/project-one-01.jpg",
-      "assets/img/cinema/project-one-02.jpg"
+      "assets/img/cinema/Carnet1.png",
+      "assets/img/cinema/Carnet1.png"
     ]
   },
   {
