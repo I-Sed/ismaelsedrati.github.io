@@ -31,10 +31,10 @@ window.CINEMA_PROJECTS = [
     still: "assets/img/cinema/Carnet1.png",
     preview: "assets/img/cinema/project-one-preview.mp4",
     slate: {
-      "Directed by": "Nom du réalisateur",
+      "Directed by": "Younes Zaoui",
       "Cinematographer": "Ismael Sedrati",
       "Colorist": "_",
-      "Shot on": "—"
+      "Shot on": "Sony FX3 Zeiss T2.1"
     },
     gallery: [
       "assets/img/cinema/Carnet1.png",
@@ -52,7 +52,7 @@ window.CINEMA_PROJECTS = [
       "Directed by": "Cléa Cervellera & Ismael Sedrati",
       "Cinematographer": "Ismael Sedrati",
       "Colorist": "—",
-      "Shot on": "—"
+      "Shot on": "Sony FX6"
     },
     gallery: [
       "assets/img/cinema/Muscu.png",
@@ -70,7 +70,7 @@ window.CINEMA_PROJECTS = [
       "Directed by": "Cléa Cervellera",
       "Cinematographer": "Ismael Sedrati",
       "Colorist": "—",
-      "Shot on": "—"
+      "Shot on": "Sony Venice 2"
     },
     gallery: [
       "assets/img/cinema/Fondvert_large.png",
@@ -82,11 +82,11 @@ window.CINEMA_PROJECTS = [
     slug: "project-four",
     title: "American Boy",
     director: "Studio Zinc",
-    credits: "Documentaire — Digital",
+    credits: "Clip — Digital",
     still: "assets/img/cinema/chant.png.jpg",
     preview: "assets/img/cinema/project-four-preview.mp4",
     slate: {
-      "Directed by": "Nom du réalisateur",
+      "Directed by": "Studio Zinc",
       "Cinematographer": "Ismael Sedrati",
       "Colorist": "—",
       "Shot on": "—"
