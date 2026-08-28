@@ -25,15 +25,15 @@
 window.CINEMA_PROJECTS = [
   {
     slug: "project-one",
-    title: "TITRE DU PROJET",
-    director: "Nom du réalisateur",
-    credits: "Court métrage — Kodak 5219",
+    title: "Carnet de notes sur un rat des villes",
+    director: "Younes Zaoui",
+    credits: "Court métrage — FX3 Zeiss T2.1",
     still: "assets/img/cinema/Carnet1.png",
     preview: "assets/img/cinema/project-one-preview.mp4",
     slate: {
       "Directed by": "Nom du réalisateur",
       "Cinematographer": "Ismael Sedrati",
-      "Colorist": "—",
+      "Colorist": "_",
       "Shot on": "—"
     },
     gallery: [
@@ -46,43 +46,44 @@ window.CINEMA_PROJECTS = [
     title: "TITRE DU PROJET",
     director: "Nom du réalisateur",
     credits: "Publicité — Kodak Vision3",
-    still: "assets/img/cinema/project-two-still.jpg",
+    still: "assets/img/cinema/Lacets.png",
     preview: "assets/img/cinema/project-two-preview.mp4",
     slate: {
-      "Directed by": "Nom du réalisateur",
+      "Directed by": "Cléa Cervellera & Ismael Sedrati",
       "Cinematographer": "Ismael Sedrati",
       "Colorist": "—",
       "Shot on": "—"
     },
     gallery: [
-      "assets/img/cinema/project-two-01.jpg",
-      "assets/img/cinema/project-two-02.jpg"
+      "assets/img/cinema/Muscu.png",
+      "assets/img/cinema/Visage.png"
     ]
   },
   {
     slug: "project-three",
     title: "TITRE DU PROJET",
-    director: "Nom du réalisateur",
-    credits: "Clip musical — 16mm",
-    still: "assets/img/cinema/project-three-still.jpg",
+    director: "Cléa Cervellera",
+    credits: "Court Métrage — Sony Venice 2",
+    still: "assets/img/cinema/Fondvert_large.png",
     preview: "assets/img/cinema/project-three-preview.mp4",
     slate: {
-      "Directed by": "Nom du réalisateur",
+      "Directed by": "Cléa Cervellera",
       "Cinematographer": "Ismael Sedrati",
       "Colorist": "—",
       "Shot on": "—"
     },
     gallery: [
-      "assets/img/cinema/project-three-01.jpg",
-      "assets/img/cinema/project-three-02.jpg"
+      "assets/img/cinema/Fondvert_large.png",
+      "assets/img/cinema/Fondvert_visage.png",
+      "assets/img/cinema/Fondvert_casse.png"
     ]
   },
   {
     slug: "project-four",
-    title: "TITRE DU PROJET",
-    director: "Nom du réalisateur",
+    title: "American Boy",
+    director: "Studio Zinc",
     credits: "Documentaire — Digital",
-    still: "assets/img/cinema/project-four-still.jpg",
+    still: "assets/img/cinema/chant.png.jpg",
     preview: "assets/img/cinema/project-four-preview.mp4",
     slate: {
       "Directed by": "Nom du réalisateur",
@@ -91,8 +92,9 @@ window.CINEMA_PROJECTS = [
       "Shot on": "—"
     },
     gallery: [
-      "assets/img/cinema/project-four-01.jpg",
-      "assets/img/cinema/project-four-02.jpg"
+      "assets/img/cinema/chant.png",
+      "assets/img/cinema/basse_light.png",
+      "assets/img/cinema/guitare_old.png"
     ]
   }
 ];
