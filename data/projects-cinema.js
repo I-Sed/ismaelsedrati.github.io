@@ -38,7 +38,7 @@ window.CINEMA_PROJECTS = [
     },
     gallery: [
       "assets/img/cinema/Carnet1.png",
-      "assets/img/cinema/Carnet1.png"
+      "assets/img/cinema/Carnet2.png"
     ]
   },
   {
