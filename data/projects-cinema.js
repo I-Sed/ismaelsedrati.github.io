@@ -56,7 +56,9 @@ window.CINEMA_PROJECTS = [
     },
     gallery: [
       "assets/img/cinema/Muscu.png",
-      "assets/img/cinema/Visage.png"
+      "assets/img/cinema/Visage.png",
+      "assets/img/cinema/Lacets.png",
+      "assets/img/cinema/Discussion.png",
     ]
   },
   {
@@ -75,6 +77,8 @@ window.CINEMA_PROJECTS = [
     gallery: [
       "assets/img/cinema/Fondvert_large.png",
       "assets/img/cinema/Fondvert_visage.png",
+      "assets/img/cinema/Fondvert_dos.png",
+      "assets/img/cinema/Fondvert_vitre.png",
       "assets/img/cinema/Fondvert_casse.png"
     ]
   },
@@ -83,7 +87,7 @@ window.CINEMA_PROJECTS = [
     title: "American Boy",
     director: "Studio Zinc",
     credits: "Clip — Digital",
-    still: "assets/img/cinema/chant.png.jpg",
+    still: "assets/img/cinema/chant.png",
     preview: "assets/img/cinema/project-four-preview.mp4",
     slate: {
       "Directed by": "Studio Zinc",
@@ -94,7 +98,8 @@ window.CINEMA_PROJECTS = [
     gallery: [
       "assets/img/cinema/chant.png",
       "assets/img/cinema/basse_light.png",
-      "assets/img/cinema/guitare_old.png"
+      "assets/img/cinema/guitare_old.png",
+      "assets/img/cinema/batterie.png"
     ]
   }
 ];
