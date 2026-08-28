@@ -326,8 +326,19 @@ a:focus-visible, button:focus-visible{
   max-width:var(--maxw); margin:0 auto;
   display:flex; flex-direction:column; gap:clamp(20px,3vw,36px);
 }
-.detail-gallery .still-wrap{ aspect-ratio:auto; height:clamp(280px,60vh,720px); }
-
+.detail-gallery .still-wrap{
+  position:static;
+  height:auto;
+  aspect-ratio:auto;
+  background:none;
+}
+.detail-gallery .still-wrap img,
+.detail-gallery .still-wrap video{
+  position:static;
+  width:100%;
+  height:auto;
+  object-fit:contain;
+}
 /* =====================================================
    ABOUT / CONTACT
    ===================================================== */
