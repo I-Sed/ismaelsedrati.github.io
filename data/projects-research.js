@@ -7,10 +7,27 @@
  * pattern is shown.
  */
 window.RESEARCH_PROJECTS = [
+    {
+    slug: "filmer-la-science",
+    tag: "Recherche / Documentaire",
+    title: "Filmer la science grâce à la sociologie des sciences",
+    // EDIT: remplace par une description plus précise de ta démarche
+    // (quelles méthodes de la sociologie des sciences, quels terrains, quel objectif filmique).
+    synopsis:
+      "Une réflexion sur la manière dont la sociologie des sciences peut nourrir une écriture documentaire du monde de la recherche — comment filmer les laboratoires, les gestes et les échanges scientifiques sans les réduire à une imagerie de vulgarisation.",
+    still: "assets/img/research/filmer-la-science-hero.jpg",
+    slate: {
+      "Domaine": "Sociologie des sciences / Documentaire",
+      "Statut": "En cours"
+    },
+    gallery: [
+      "assets/img/research/filmer-la-science-01.jpg"
+    ]
+  },
   {
     slug: "dctl-davinci-resolve",
     tag: "Color science / Outils",
-    title: "Développement de DCTL pour DaVinci Resolve",
+    title: "Contrast DCTL for DaVinci Resolve",
     // EDIT: remplace par une description plus précise de tes DCTL
     // (ce qu'ils font, pourquoi tu les as codés, exemples d'usage).
     synopsis:
@@ -24,7 +41,8 @@ window.RESEARCH_PROJECTS = [
     gallery: [
       "assets/img/research/dctl-01.jpg"
     ]
-  },
+  }
+  /**
   {
     slug: "production-value-previz",
     tag: "Prévisualisation / Color science",
@@ -41,22 +59,6 @@ window.RESEARCH_PROJECTS = [
       "assets/img/research/previz-01.jpg",
       "assets/img/research/previz-02.jpg"
     ]
-  },
-  {
-    slug: "filmer-la-science",
-    tag: "Recherche / Documentaire",
-    title: "Filmer la science grâce à la sociologie des sciences",
-    // EDIT: remplace par une description plus précise de ta démarche
-    // (quelles méthodes de la sociologie des sciences, quels terrains, quel objectif filmique).
-    synopsis:
-      "Une réflexion sur la manière dont la sociologie des sciences peut nourrir une écriture documentaire du monde de la recherche — comment filmer les laboratoires, les gestes et les échanges scientifiques sans les réduire à une imagerie de vulgarisation.",
-    still: "assets/img/research/filmer-la-science-hero.jpg",
-    slate: {
-      "Domaine": "Sociologie des sciences / Documentaire",
-      "Statut": "En cours"
-    },
-    gallery: [
-      "assets/img/research/filmer-la-science-01.jpg"
-    ]
   }
+  */
 ];
