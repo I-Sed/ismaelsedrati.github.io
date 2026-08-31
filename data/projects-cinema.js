@@ -25,7 +25,7 @@
 window.CINEMA_PROJECTS = [
   {
     slug: "project-one",
-    title: "Carnet de notes sur un rat des villes",
+    title: "Carnet de Notes sur un Rat des Villes",
     director: "Younes Zaoui",
     credits: "Court métrage — FX3 Zeiss T2.1",
     still: "assets/img/cinema/Carnet1.png",
@@ -43,15 +43,14 @@ window.CINEMA_PROJECTS = [
   },
   {
     slug: "project-two",
-    title: "TITRE DU PROJET",
-    director: "Nom du réalisateur",
-    credits: "Publicité — Kodak Vision3",
+    title: "MARINE",
+    director: "Cléa Cervellera & Ismael Sedrati",
+    credits: "Documentaire — Sony FX6",
     still: "assets/img/cinema/Lacets.png",
     preview: "assets/img/cinema/project-two-preview.mp4",
     slate: {
       "Directed by": "Cléa Cervellera & Ismael Sedrati",
       "Cinematographer": "Ismael Sedrati",
-      "Colorist": "—",
       "Shot on": "Sony FX6"
     },
     gallery: [
@@ -63,7 +62,7 @@ window.CINEMA_PROJECTS = [
   },
   {
     slug: "project-three",
-    title: "TITRE DU PROJET",
+    title: "A Room with a View",
     director: "Cléa Cervellera",
     credits: "Court Métrage — Sony Venice 2",
     still: "assets/img/cinema/Fondvert_large.png",
@@ -71,8 +70,8 @@ window.CINEMA_PROJECTS = [
     slate: {
       "Directed by": "Cléa Cervellera",
       "Cinematographer": "Ismael Sedrati",
-      "Colorist": "—",
-      "Shot on": "Sony Venice 2"
+      "Colorist": "Ismael Sedrati",
+      "Shot on": "Sony Venice 2 - Cooke S4"
     },
     gallery: [
       "assets/img/cinema/Fondvert_large.png",
@@ -91,9 +90,7 @@ window.CINEMA_PROJECTS = [
     preview: "assets/img/cinema/project-four-preview.mp4",
     slate: {
       "Directed by": "Studio Zinc",
-      "Cinematographer": "Ismael Sedrati",
-      "Colorist": "—",
-      "Shot on": "—"
+      "Cinematographer": "Ismael Sedrati"
     },
     gallery: [
       "assets/img/cinema/chant.png",
