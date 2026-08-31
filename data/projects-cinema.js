@@ -95,8 +95,7 @@ window.CINEMA_PROJECTS = [
     gallery: [
       "assets/img/cinema/chant.png",
       "assets/img/cinema/basse_light.png",
-      "assets/img/cinema/guitare_old.png",
-      "assets/img/cinema/batterie.png"
+      "assets/img/cinema/guitare_old.png"
     ]
   }
 ];
