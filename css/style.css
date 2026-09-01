@@ -127,10 +127,10 @@ a:focus-visible, button:focus-visible{
   overflow:hidden;
   background:var(--ink);
 }
-.hero video{
+.hero iframe{
   position:absolute; inset:0;
   width:100%; height:100%; object-fit:cover;
-  opacity:.92;
+  opacity:.92; border:0;
 }
 .hero::after{
   content:"";
