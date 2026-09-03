@@ -8,12 +8,13 @@
 window.DIRECTOR_PROJECTS = [
   {
     slug: "we-are-proud-of-you-loubnan",
-    tag: "Sélection festivals",
+    tag: "Sélectionné en festival",
     title: "We Are Proud of You Loubnan",
     format: "Court métrage",
     // EDIT: remplace par ton vrai synopsis (2-4 phrases).
     synopsis:
-      "Un jeune scientifique immigré travaillant en France.",
+      "Loubnan travaille pour une entreprise scientifique en banlieue parisienne. Ses perspectives de carrière ne l’enchantent plus, et il aimerait rentrer au Liban. Mais tandis que la guerre au Liban s’intensifie, il découvre les applications concrètes de son travail.",
+      "Loubnan works for a scientific company in Paris suburbs. His career prospects no  longer appeal to him, and he would like to return to Lebanon. But the war in Lebanon intensifies. He then discovers the practical applications of his work.",
     still: "assets/img/director/Loubnan/lowqual_1.jpg",
     slate: {
       "Réalisation": "Ismael Sedrati",
