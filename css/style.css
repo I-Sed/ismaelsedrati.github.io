@@ -222,7 +222,6 @@ a:focus-visible, button:focus-visible{
 .still-wrap .still{ transition:opacity .35s ease; }
 .still-wrap .preview{ opacity:0; transition:opacity .35s ease; }
 .project-card:hover .preview{ opacity:1; }
-.project-card:hover .still{ opacity:0; }
 
 .still-wrap.is-placeholder{
   background:
