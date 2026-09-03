@@ -13,13 +13,13 @@ window.DIRECTOR_PROJECTS = [
     format: "Court métrage",
     // EDIT: remplace par ton vrai synopsis (2-4 phrases).
     synopsis:
-      "Un court métrage sur le Liban d'aujourd'hui, actuellement présenté en sélection dans plusieurs festivals.",
+      "Un jeune scientifique immigré travaillant en France.",
     still: "assets/img/director/Loubnan/lowqual_1.jpg",
     slate: {
       "Réalisation": "Ismael Sedrati",
       "Format": "Court métrage",
       "Statut": "Sélections festivals en cours",
-      "Pays": "Liban"
+      "Pays": "France"
     },
     gallery: [
       "assets/img/director/Loubnan/lowqual_1.jpg",
@@ -34,8 +34,8 @@ window.DIRECTOR_PROJECTS = [
     title: "Ping Pong",
     format: "Expérimental",
     synopsis:
-      "Un projet expérimental qui reproduit, plan par plan, des séquences de Ping Pong The Animation de Masaaki Yuasa — une recherche formelle sur la mise en scène et le langage visuel de l'anime transposés en prise de vue réelle.",
-    still: "assets/img/director/pingpong-hero.jpg",
+      "Un projet expérimental qui reproduit, plan par plan, des séquences de Ping Pong The Animation de Masaaki Yuasa. Une recherche formelle sur le langage visuel de l'anime transposés à la prise de vue réelle.",
+    still: "assets/img/director/Ping/Table.jpg",
     slate: {
       "Réalisation": "Ismael Sedrati",
       "Format": "Expérimental",
@@ -43,8 +43,9 @@ window.DIRECTOR_PROJECTS = [
       "Statut": "En cours"
     },
     gallery: [
-      "assets/img/director/pingpong-01.jpg",
-      "assets/img/director/pingpong-02.jpg"
+      "assets/img/director/Ping/Table.jpg",
+      "assets/img/director/Ping/Visage.jpg",
+      "assets/img/director/Ping/Light.jpg"
     ]
   },
   {
