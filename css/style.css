@@ -62,8 +62,6 @@ a:focus-visible, button:focus-visible{
   height:var(--nav-h);
   display:flex; align-items:center; justify-content:space-between;
   padding:0 var(--gutter);
-  background:rgba(250,248,244,.92);
-  backdrop-filter:blur(6px);
   border-bottom:1px solid var(--line);
 }
 .site-nav .brand{
@@ -112,6 +110,14 @@ a:focus-visible, button:focus-visible{
   .nav-links a{
     padding:16px 0; border-bottom:1px solid var(--line); width:100%;
   }
+  .nav-links a{
+  border-left:3px solid transparent;
+  padding-left:10px;
+   }
+   .nav-links a[aria-current="page"]{
+     border-bottom-color:var(--line);
+     border-left-color:var(--accent);
+   } 
   .nav-toggle{
     display:block; font-family:var(--font-mono); font-size:12px; letter-spacing:.1em; text-transform:uppercase;
   }
