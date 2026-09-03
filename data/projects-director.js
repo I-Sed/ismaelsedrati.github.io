@@ -14,7 +14,7 @@ window.DIRECTOR_PROJECTS = [
     // EDIT: remplace par ton vrai synopsis (2-4 phrases).
     synopsis:
       "Un court métrage sur le Liban d'aujourd'hui, actuellement présenté en sélection dans plusieurs festivals.",
-    still: "assets/img/director/loubnan-hero.jpg",
+    still: "assets/img/director/Loubnan/lowqual_1.jpg",
     slate: {
       "Réalisation": "Ismael Sedrati",
       "Format": "Court métrage",
@@ -22,8 +22,10 @@ window.DIRECTOR_PROJECTS = [
       "Pays": "Liban"
     },
     gallery: [
-      "assets/img/director/loubnan-01.jpg",
-      "assets/img/director/loubnan-02.jpg"
+      "assets/img/director/Loubnan/lowqual_1.jpg",
+      "assets/img/director/Loubnan/Manip_sombre.jpg",
+      "assets/img/director/Loubnan/Labo.jpg",
+      "assets/img/director/Loubnan/Labo_2.jpg"
     ]
   },
   {
@@ -53,15 +55,16 @@ window.DIRECTOR_PROJECTS = [
     // EDIT: remplace par ton vrai synopsis (2-4 phrases).
     synopsis:
       "Un court métrage actuellement en post-production, qui questionne notre rapport à la science et à la recherche aujourd'hui.",
-    still: "assets/img/director/rage-hero.jpg",
+    still: "assets/img/director/Rage/Tableau.jpg",
     slate: {
       "Réalisation": "Ismael Sedrati",
       "Format": "Court métrage",
       "Statut": "En post-production"
     },
     gallery: [
-      "assets/img/director/rage-01.jpg",
-      "assets/img/director/rage-02.jpg"
+      "assets/img/director/Rage/Tableau.jpg",
+      "assets/img/director/Rage/amal_labo.png",
+      "assets/img/director/Rage/PPM intro.png"
     ]
   }
 ];
