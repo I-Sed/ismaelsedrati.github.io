@@ -14,16 +14,35 @@ window.RESEARCH_PROJECTS = [
     // EDIT: remplace par une description plus précise de ta démarche
     // (quelles méthodes de la sociologie des sciences, quels terrains, quel objectif filmique).
     synopsis:
-      "Une réflexion sur la manière dont la sociologie des sciences peut nourrir une écriture documentaire du monde de la recherche — comment filmer les laboratoires, les gestes et les échanges scientifiques sans les réduire à une imagerie de vulgarisation.",
-    still: "assets/img/research/filmer-la-science-hero.jpg",
+      "La sociologie des sciences et l'éthique du documentaire pour nourrir une écriture autour de la science — filmer les laboratoires, et raconter une histoire des sciences engageante et engagée.",
+    still: "assets/img/director/Loubnan/Manip_sombre.jpg",
     slate: {
       "Domaine": "Sociologie des sciences / Documentaire",
       "Statut": "En cours"
     },
     gallery: [
-      "assets/img/research/filmer-la-science-01.jpg"
+      "assets/img/director/Loubnan/Labo_2.jpg"
     ]
   },
+    {
+    slug: "4DGS",
+    tag: "VFX - research",
+    title: "4D Gaussian Splatting ",
+
+    synopsis:
+      "Recherche et expérimentation visuelle autour du 4D Gaussian Splatting",
+    still: "assets/img/research/dctl-hero.jpg",
+    slate: {
+      "Domaine": "VFX - animation & pdv réelle",
+      "Outils": "",
+      "Statut": "En cours"
+    },
+    gallery: [
+      "assets/img/research/dctl-01.jpg"
+    ]
+  }
+    
+    /**
   {
     slug: "dctl-davinci-resolve",
     tag: "Color science / Outils",
@@ -42,6 +61,7 @@ window.RESEARCH_PROJECTS = [
       "assets/img/research/dctl-01.jpg"
     ]
   }
+  */
   /**
   {
     slug: "production-value-previz",
