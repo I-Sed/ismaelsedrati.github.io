@@ -108,7 +108,7 @@ window.CINEMA_PROJECTS = [
     ]
   },
   {
-    slug: "project-four",
+    slug: "project-five",
     title: "Drinking at the edge",
     director: "Ismael Sedrati & Margaux Isaia",
     credits: "Short — Digital",
@@ -124,7 +124,7 @@ window.CINEMA_PROJECTS = [
     ]
   },
   {
-    slug: "project-four",
+    slug: "project-six",
     title: "Amélie",
     director: "Ismael Sedrati",
     credits: "Short — Digital",
