@@ -163,6 +163,20 @@ a:focus-visible, button:focus-visible{
   font-size:12px; letter-spacing:.14em; text-transform:uppercase;
   color:#cfc9bd; margin-bottom:10px; display:block;
 }
+.hero-reel-link{
+  display:inline-block;
+  margin-top:14px;
+  font-family:var(--font-mono);
+  font-size:12px; letter-spacing:.1em; text-transform:uppercase;
+  color:#f4f1ea;
+  border-bottom:1px solid rgba(244,241,234,.5);
+  padding-bottom:2px;
+  transition:border-color .2s ease, color .2s ease;
+}
+.hero-reel-link:hover{
+  color:var(--accent);
+  border-color:var(--accent);
+}
 .hero-meta{
   font-family:var(--font-mono);
   font-size:11px; letter-spacing:.08em; text-transform:uppercase;
