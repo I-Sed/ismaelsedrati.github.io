@@ -31,7 +31,7 @@ window.RESEARCH_PROJECTS = [
 
     synopsis:
       "Recherche et expérimentation visuelle autour du 4D Gaussian Splatting",
-    still: "assets/img/research/dctl-hero.jpg",
+    still: "assets/img/research/4DGS/Gaussian_Splat.jpg",
     slate: {
       "Domaine": "VFX - animation & pdv réelle",
       "Outils": "",
