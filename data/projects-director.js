@@ -20,7 +20,7 @@ window.DIRECTOR_PROJECTS = [
       "Réalisation": "Ismael Sedrati",
       "Format": "Court métrage",
       "Statut": "Sélections festivals en cours",
-      "Pays": "France"
+      "Pays": "France - Liban"
     },
     gallery: [
       "assets/img/director/Loubnan/lowqual_1.jpg",
@@ -33,15 +33,15 @@ window.DIRECTOR_PROJECTS = [
     slug: "ping-pong",
     tag: "Projet expérimental",
     title: "Ping Pong",
-    format: "Expérimental",
+    format: "Short - Experimental",
     synopsis:
-      "Un projet expérimental qui reproduit, plan par plan, des séquences de Ping Pong The Animation de Masaaki Yuasa. Une recherche formelle sur le langage visuel de l'anime transposés à la prise de vue réelle.",
+      "Un projet expérimental qui reproduit, plan par plan, des séquences de Ping Pong The Animation de Masaaki Yuasa. Une recherche formelle sur le langage visuel de l'anime transposé à la prise de vue réelle.",
     still: "assets/img/director/Ping/Table.jpg",
     slate: {
       "Réalisation": "Ismael Sedrati",
       "Format": "Expérimental",
       "Référence": "Ping Pong The Animation (Masaaki Yuasa)",
-      "Statut": "En cours"
+      "Statut": "Réalisé"
     },
     gallery: [
       "assets/img/director/Ping/Table.jpg",
@@ -56,7 +56,7 @@ window.DIRECTOR_PROJECTS = [
     format: "Court métrage",
     // EDIT: remplace par ton vrai synopsis (2-4 phrases).
     synopsis:
-      "Un court métrage actuellement en post-production, qui questionne notre rapport à la science et à la recherche aujourd'hui.",
+      "Un court métrage actuellement en post-production, qui questionne notre rapport à la science et à la recherche aujourd'hui. Le film revisite l'expérience de la pompe à vide de Boyle en darija marocaine, et s'inspire des travaux de Shapin et Schaffer pour porter un regard sur la production du savoir.",
     still: "assets/img/director/Rage/Tableau.jpg",
     slate: {
       "Réalisation": "Ismael Sedrati",
