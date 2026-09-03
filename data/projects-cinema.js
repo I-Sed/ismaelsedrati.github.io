@@ -29,7 +29,7 @@ window.CINEMA_PROJECTS = [
     director: "Younes Zaoui",
     credits: "Court métrage — FX3 Zeiss T2.1",
     still: "assets/img/cinema/Carnet/Light.jpg",
-    preview: "assets/img/cinema/project-one-preview.mp4",
+    preview: "",
     slate: {
       "Directed by": "Younes Zaoui",
       "Cinematographer": "Ismael Sedrati",
@@ -55,7 +55,7 @@ window.CINEMA_PROJECTS = [
     director: "Cléa Cervellera & Ismael Sedrati",
     credits: "Documentaire — Sony FX6",
     still: "assets/img/cinema/Marine/Lacets_compr.jpg",
-    preview: "assets/img/cinema/project-two-preview.mp4",
+    preview: "",
     slate: {
       "Directed by": "Cléa Cervellera & Ismael Sedrati",
       "Cinematographer": "Ismael Sedrati",
@@ -74,7 +74,7 @@ window.CINEMA_PROJECTS = [
     director: "Cléa Cervellera",
     credits: "Court Métrage — Sony Venice 2",
     still: "assets/img/cinema/fondvert/Fondvert_large_compr_1.2.1.jpg",
-    preview: "assets/img/cinema/project-three-preview.mp4",
+    preview: "",
     slate: {
       "Directed by": "Cléa Cervellera",
       "Cinematographer": "Ismael Sedrati",
@@ -95,7 +95,7 @@ window.CINEMA_PROJECTS = [
     director: "Younes Zaoui",
     credits: "Short — Digital",
     still: "assets/img/cinema/KF/voiture.jpg",
-    preview: "assets/img/cinema/project-four-preview.mp4",
+    preview: "",
     slate: {
       "Directed by": "Younes Zaoui",
       "Cinematographer": "Ismael Sedrati"
@@ -113,7 +113,7 @@ window.CINEMA_PROJECTS = [
     director: "Ismael Sedrati & Margaux Isaia",
     credits: "Short — Digital",
     still: "assets/img/cinema/LumCorps/Jour.jpg",
-    preview: "assets/img/cinema/project-four-preview.mp4",
+    preview: "",
     slate: {
       "Directed by": "Ismael Sedrati & Margaux Isaia",
       "Cinematographer": "Ismael Sedrati"
@@ -129,7 +129,7 @@ window.CINEMA_PROJECTS = [
     director: "Ismael Sedrati",
     credits: "Short — Digital",
     still: "assets/img/cinema/Amelie/Visage.jpg",
-    preview: "assets/img/cinema/project-four-preview.mp4",
+    preview: "",
     slate: {
       "Directed by": "Ismael Sedrati",
       "Cinematographer": "Ismael Sedrati"
