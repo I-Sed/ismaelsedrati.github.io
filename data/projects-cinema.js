@@ -139,23 +139,6 @@ window.CINEMA_PROJECTS = [
       "assets/img/cinema/Amelie/Dos.jpg",
       "assets/img/cinema/Amelie/Plan1.jpg"
     ]
-  },
-  {
-    slug: "project-four",
-    title: "American Boy",
-    director: "Studio Zinc",
-    credits: "Clip — Digital",
-    still: "assets/img/cinema/chant.png",
-    preview: "assets/img/cinema/project-four-preview.mp4",
-    slate: {
-      "Directed by": "Studio Zinc",
-      "Cinematographer": "Ismael Sedrati"
-    },
-    gallery: [
-      "assets/img/cinema/chant.png",
-      "assets/img/cinema/basse_light.png",
-      "assets/img/cinema/guitare_old.png"
-    ]
   }
   
 ];
