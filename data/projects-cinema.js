@@ -28,7 +28,7 @@ window.CINEMA_PROJECTS = [
     title: "Carnet de Notes sur un Rat des Villes",
     director: "Younes Zaoui",
     credits: "Court métrage — FX3 Zeiss T2.1",
-    still: "assets/img/cinema/Carnet1.png",
+    still: "assets/img/cinema/Carnet/Light.jpg",
     preview: "assets/img/cinema/project-one-preview.mp4",
     slate: {
       "Directed by": "Younes Zaoui",
@@ -37,8 +37,16 @@ window.CINEMA_PROJECTS = [
       "Shot on": "Sony FX3 Zeiss T2.1"
     },
     gallery: [
-      "assets/img/cinema/Carnet1.png",
-      "assets/img/cinema/Carnet2.png"
+      "assets/img/cinema/Carnet/trio_piqueur.jpg",
+      "assets/img/cinema/Carnet/trio_rigolo.jpg",
+      "assets/img/cinema/Carnet/cours.jpg",
+      "assets/img/cinema/Carnet/chatelet1.jpg",
+      "assets/img/cinema/Carnet/chatelet2.jpg",
+      "assets/img/cinema/Carnet/marche_large.jpg",
+      "assets/img/cinema/Carnet/keuf.jpg",
+      "assets/img/cinema/Carnet/cornflakes.jpg",
+      "assets/img/cinema/Carnet/trio_chill.jpg",
+      "assets/img/cinema/Carnet/papa.jpg"
     ]
   },
   {
@@ -46,7 +54,7 @@ window.CINEMA_PROJECTS = [
     title: "MARINE",
     director: "Cléa Cervellera & Ismael Sedrati",
     credits: "Documentaire — Sony FX6",
-    still: "assets/img/cinema/Lacets.png",
+    still: "assets/img/cinema/Marine/Lacets_compr.jpg",
     preview: "assets/img/cinema/project-two-preview.mp4",
     slate: {
       "Directed by": "Cléa Cervellera & Ismael Sedrati",
@@ -65,7 +73,7 @@ window.CINEMA_PROJECTS = [
     title: "A Room with a View",
     director: "Cléa Cervellera",
     credits: "Court Métrage — Sony Venice 2",
-    still: "assets/img/cinema/Fondvert_large.png",
+    still: "assets/img/cinema/fondvert/Fondvert_large_compr_1.2.1.jpg",
     preview: "assets/img/cinema/project-three-preview.mp4",
     slate: {
       "Directed by": "Cléa Cervellera",
@@ -79,6 +87,57 @@ window.CINEMA_PROJECTS = [
       "assets/img/cinema/Fondvert_dos.png",
       "assets/img/cinema/Fondvert_vitre.png",
       "assets/img/cinema/Fondvert_casse.png"
+    ]
+  },
+  {
+    slug: "project-four",
+    title: "Khalti Fatna",
+    director: "Younes Zaoui",
+    credits: "Short — Digital",
+    still: "assets/img/cinema/KF/voiture.jpg",
+    preview: "assets/img/cinema/project-four-preview.mp4",
+    slate: {
+      "Directed by": "Younes Zaoui",
+      "Cinematographer": "Ismael Sedrati"
+    },
+    gallery: [
+      "assets/img/cinema/KF/voiture.jpg",
+      "assets/img/cinema/KF/massage.jpg",
+      "assets/img/cinema/KF/pied_biche.jpg",
+      "assets/img/cinema/KF/visage.jpg"
+    ]
+  },
+  {
+    slug: "project-four",
+    title: "Drinking at the edge",
+    director: "Ismael Sedrati & Margaux Isaia",
+    credits: "Short — Digital",
+    still: "assets/img/cinema/LumCorps/Jour.jpg",
+    preview: "assets/img/cinema/project-four-preview.mp4",
+    slate: {
+      "Directed by": "Ismael Sedrati & Margaux Isaia",
+      "Cinematographer": "Ismael Sedrati"
+    },
+    gallery: [
+      "assets/img/cinema/LumCorps/Jour.jpg",
+      "assets/img/cinema/LumCorps/Nuit.jpg"
+    ]
+  },
+  {
+    slug: "project-four",
+    title: "Amélie",
+    director: "Ismael Sedrati",
+    credits: "Short — Digital",
+    still: "assets/img/cinema/Amelie/Visage.jpg",
+    preview: "assets/img/cinema/project-four-preview.mp4",
+    slate: {
+      "Directed by": "Ismael Sedrati",
+      "Cinematographer": "Ismael Sedrati"
+    },
+    gallery: [
+      "assets/img/cinema/Amelie/Visage.jpg",
+      "assets/img/cinema/Amelie/Dos.jpg",
+      "assets/img/cinema/Amelie/Plan1.jpg"
     ]
   },
   {
@@ -98,4 +157,5 @@ window.CINEMA_PROJECTS = [
       "assets/img/cinema/guitare_old.png"
     ]
   }
+  
 ];
