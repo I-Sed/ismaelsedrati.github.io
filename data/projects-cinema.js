@@ -33,7 +33,7 @@ window.CINEMA_PROJECTS = [
     slate: {
       "Directed by": "Younes Zaoui",
       "Cinematographer": "Ismael Sedrati",
-      "Colorist": "_",
+      /**"Colorist": "_",*/
       "Shot on": "Sony FX3 Zeiss T2.1"
     },
     gallery: [
@@ -98,7 +98,8 @@ window.CINEMA_PROJECTS = [
     preview: "",
     slate: {
       "Directed by": "Younes Zaoui",
-      "Cinematographer": "Ismael Sedrati"
+      "Cinematographer": "Ismael Sedrati",
+      "Shot on": "Alexa Classic - Zeiss T2.1"
     },
     gallery: [
       "assets/img/cinema/KF/voiture.jpg",
@@ -116,7 +117,8 @@ window.CINEMA_PROJECTS = [
     preview: "",
     slate: {
       "Directed by": "Ismael Sedrati & Margaux Isaia",
-      "Cinematographer": "Ismael Sedrati"
+      "Cinematographer": "Ismael Sedrati",
+      "Shot on": "Alexa Studio"
     },
     gallery: [
       "assets/img/cinema/LumCorps/Jour.jpg",
@@ -132,7 +134,8 @@ window.CINEMA_PROJECTS = [
     preview: "",
     slate: {
       "Directed by": "Ismael Sedrati",
-      "Cinematographer": "Ismael Sedrati"
+      "Cinematographer": "Ismael Sedrati",
+      "Shot on": "Sony Venice 2 - Cooke S4"
     },
     gallery: [
       "assets/img/cinema/Amelie/Visage.jpg",
