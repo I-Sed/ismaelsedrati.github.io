@@ -39,7 +39,7 @@ function initHero(){
 /* =====================================================
    Helper: build a still/preview media block
    ===================================================== */
-function buildStillWrap({ still, preview, alt }){
+function buildStillWrap({ still, preview, alt, title }){
   const wrap = document.createElement('div');
   wrap.className = 'still-wrap';
 
@@ -67,6 +67,13 @@ function buildStillWrap({ still, preview, alt }){
     wrap.addEventListener('mouseleave', () => { vid.pause(); vid.currentTime = 0; });
   }
 
+    if(title){
+    const overlay = document.createElement('div');
+    overlay.className = 'still-title-overlay';
+    overlay.textContent = title;
+    wrap.appendChild(overlay);
+  }
+
   return wrap;
 }
 
@@ -85,7 +92,7 @@ function renderCinemaGrid(){
     link.className = 'card-link';
     link.href = `project.html?type=cinema&slug=${encodeURIComponent(p.slug)}`;
 
-    link.appendChild(buildStillWrap({ still:p.still, preview:p.preview, alt:p.title }));
+    link.appendChild(buildStillWrap({ still:p.still, preview:p.preview, alt:p.title, title:p.title }));
 
     card.appendChild(link);
     grid.appendChild(card);
