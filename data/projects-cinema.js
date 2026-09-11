@@ -25,7 +25,7 @@
 window.CINEMA_PROJECTS = [
   {
     slug: "project-one",
-    title: "Carnet de Notes sur un Rat des Villes",
+    title: "Carnet de Notes d'un Rat des Villes",
     director: "Younes Zaoui",
     credits: "Court métrage — FX3 Zeiss T2.1",
     still: "assets/img/cinema/Carnet/Light.jpg",
@@ -51,7 +51,7 @@ window.CINEMA_PROJECTS = [
   },
   {
     slug: "project-two",
-    title: "MARINE",
+    title: "Marine",
     director: "Cléa Cervellera & Ismael Sedrati",
     credits: "Documentaire — Sony FX6",
     still: "assets/img/cinema/Marine/Lacets_compr.jpg",
