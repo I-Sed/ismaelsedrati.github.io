@@ -10,7 +10,7 @@ window.RESEARCH_PROJECTS = [
     {
     slug: "filmer-la-science",
     tag: "Recherche / Documentaire",
-    title: "Filmer la science grâce à la sociologie des sciences",
+    title: "Ethique et esthétique en documentaire ; filmer la science grâce à la sociologie des sciences",
     // EDIT: remplace par une description plus précise de ta démarche
     // (quelles méthodes de la sociologie des sciences, quels terrains, quel objectif filmique).
     synopsis:
