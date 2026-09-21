@@ -22,6 +22,9 @@ window.RESEARCH_PROJECTS = [
     },
     gallery: [
       "assets/img/director/Loubnan/Labo_2.jpg"
+      "assets/img/director/Rage/Tableau.jpg",
+      "assets/img/director/Rage/amal_labo.png",
+      "assets/img/director/Rage/PPM intro.png"
     ]
   },
     {
